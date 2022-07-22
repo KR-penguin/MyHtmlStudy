@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Web Page</title>
+    </head>
+    <body>
+            <h1>
+                big title msg!
+            </h1>
+                
+                <p>    
+                Hi! today wather is very graet! <br>
+                It's my html project site! <br>
+                I studing html!  <br>
+                </p>
+
+                <blockquote cite="https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started">
+                    <p>    
+                        HTML (Hypertext Markup Language,하이퍼텍스트 마크업 언어)는 프로그래밍 언어는 아니고, 우리가 보는 웹페이지가 어떻게 구조화되어 있는지 브라우저로 하여금 알 수 있도록 하는 마크업 언어입니다. 이는 개발자로 하여금 복잡하게도 간단하게도 프로그래밍 할 수 있습니다. HTML은 elements로 구성되어 있으며, 이들은 적절한 방법으로 나타내고 실행하기 위해 각 컨텐츠의 여러 부분들을 감싸고 마크업 합니다. tags 는 웹 상의 다른 페이지로 이동하게 하는 하이퍼링크 내용들을 생성하거나, 단어를 강조하는 등의 역할을 합니다.  예를들어, 다음의 내용을 봅시다.   
+                    </p>    
+                </blockquote>
+
+                <q cite="https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started">
+                    <p>
+                    여는 태그(Opening tag): 이것은 요소의 이름과(이 경우 p), 열고 닫는 꺽쇠 괄호로 구성됩니다. 요소가 시작(이 경우 단락의 시작 부분)부터 효과가 적용되기 시작합니다.
+                    </p>        
+                </q>
+
+                <p>
+                마딩이 잘 안팔려서 마딩의 가격을 할인된 금액 (정가 : <del>1000</del>원) 할인된 금액 : <ins>500</ins>원에 판매합니다.
+                </p>
+
+                <p>
+                    물의 원소 기호는 H<sub>2</sub>O 입니다 <br>
+                    3<sup>4</sup>은 81 입니다
+                </p>
+
+                <div class ="game">
+                    <p>이 태그는 테스트 태그 입니다.</p>
+                </div>
+
+                <div class ="movie">
+                    <p>이 태그는 두번째 테스트 태그 입니다.</p>
+                </div>
+                
+                    <p>span 태그 사용예제</p>
+                    <p>이번 영화의 <span>하이라이트</span> 장면은 바로 여기입니다.</p> <!-- css를 쓰지 않았기 떄문에 시각적인 변화는 없음 -->
+
+                    <!-- 목록 만들기 (ul,ol,dl) -->
+
+                    <h2>
+                        판매 중인 과일
+                    </h2>
+                    <ul>
+                        <li>바나나</li>
+                        <li>사과</li>
+                        <li>수박</li>
+                    </ul>
+                    
+                    <h2>
+                        오늘 할일
+                    </h2>
+                    <ol>
+                        <li>html 공부하기</li>
+                        <li>unreal engine 공부하기</li>
+                        <li>entry code cleaning 작업하기</li>
+                    </ol>
+                    
+                    <dl>
+                        <dt>dl 태그</dt>
+                        <dd>는 제일 쓸모 없는 태그 입니다</dd>
+                    </dl>
+                    
+                    <!-- 링크와 이미지 넣기 -->
+
+                    <a href="https://www.youtube.com/channel/UC-rOCJUeEzcjO8cBwBE-zOQ" target="_blank" title="코펭 유튜브">코펭 유튜브로 놀러오세요!</a>
+
+                    <img src="./images/kopeng.jpg" alt="코펭 프로필 사진">
+
+                    <a href="https://www.youtube.com/c/HYBELABELS" target="_blank" title="BTS!">
+                        <img src="./images/bts.png" alt="I love bts so much">
+                    </a>
+
+                    <p>마딩은 <strong>멍청이</strong> 입니다.</p>
+
+                    <p>코펭은 <em>천재</em> 입니다</p>
+
+                    <form action="#" method="get"></form>
+
+                    <input type="text">
+                    <input type="password">
+                    <input type="tel">
+                    <input type="number">
+                    <input type="url">
+                    <input type="search">
+                    <input type="email">
+                    <input type="checkbox">
+                    <input type="radio">
+                    <input type="file">
+                    <input type="button">
+                    <input type="image" src="./images/test.png">
+                    <input type="hidden">
+                    <input type="date">
+                    <input type="datetime-local">
+                    <input type="month">
+
+                    <input type="week">
+                    <input type="time">
+                    <input type="range">
+                    <input type="color">
+                    <input type="submit">
+                    <input type="reset">
+                    
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    
+                    <lable for="userpw">비밀번호</lable>
+                    <input type="password" id="userpw">
+
+                    <lable>
+                        아이디
+                        <input type="text">
+                    </lable>
+
+                    <lable for="useremail">
+                        이메일
+                        <input type="text" id="useremail">
+                    </lable>
+
+                    <br>
+                    <br>
+
+                    <p>밑 그룹은 test 그룹으로 fieldset 과 legend 태그를 사용하기 위함입니다.</p>
+
+                    <form action="#">
+                        <fieldset>
+                            <legend>그룹 이름</legend>
+                            <!-- 상호작용 요소 생략 -->
+                        </fieldset>
+                    </form>
+
+                    <br>
+
+                    <h3>
+                        응용 결과
+                    </h3>
+
+                    <br>
+
+                    <form>
+                        <fieldset>
+                            <legend>필수 입력 상황</legend>
+
+                            <lable for="userid">아이디</lable>
+                            <input type="text" id="userid">
+
+                            <br>
+                            
+                            <lable for="userpassword">비밀번호</lable>
+                            <input type="password" id="userpassword">
+                            
+                        </fieldset>
+                    </form>
+
+                    <form>
+                        <fieldset>
+                            <legend>선택 입력 상황</legend>
+
+                            <lable for="useremail">email address</lable>
+                            <input type="text" id="useremail">
+
+                            <br>
+                            
+                            <lable>
+                                <strong>성별</strong>
+
+                                남
+                                <input type="checkbox">
+                                여
+                                <input type="checkbox">
+
+                            </lable>
+                            
+                        </fieldset>
+                    </form>
+
+                    <br>
+                    <br>
+
+                    <form action="#" method="post">
+                        <fieldset>
+                            
+                            <legend>커뮤니티 글쓰기</legend>
+
+                            <p>
+                                <label for="title">제목
+                                    <input type="text" id="title" name="title">
+                                </label>
+                            </p>
+
+                            <p>
+                                <label for="desc">내용
+                                    <textarea id="desc" name="desc"></textarea>
+                                </label>
+                            </p>
+
+                        </fieldset>
+                    </form>
+
+                    <form action="#" method="post">
+                        <fieldset>
+
+                            <legend>내가 좋아하는 </legend>
+
+                            <select name="Iam" id="Iam">
+                                <optgroup label ="과일은">
+                                    <option value="사과">사과</option>
+                                    <option value="수박">수박</option>
+                                    <option value="메론">메론</option>
+                                    <option value="바나나">바나나</option>
+                                    <option value="참외">참외</option>
+                                </optgroup>
+
+                                <optgroup label ="운동은">
+                                    <option value="야구">야구</option>
+                                    <option value="축구">축구</option>
+                                    <option value="탁구">탁구</option>
+                                    <option value="배구">배구</option>
+                                    <option value="농구">농구</option>
+                                </optgroup>
+
+                            </select>
+
+                        </fieldset>
+
+                        <fieldset>그 이유는</fieldset>
+
+                        <select name="because" id="because" size="6">
+                            <optgroup label ="과일">
+                                <option value="달기 떄문이야">달기 때문이야</option>
+                                <option value="달기 떄문이야">상큼하기 때문이야</option>
+                                <option value="달기 떄문이야">아삭 때문이야</option>
+                                <option value="달기 떄문이야">쫀득 때문이야</option>
+                                <option value="달기 떄문이야">수분이 많기 때문이야</option>
+                            </optgroup>
+
+                            <optgroup label ="운동">
+                                <option value="달기 떄문이야">시원하기 때문이야</option>
+                                <option value="달기 떄문이야">신나기 때문이야</option>
+                                <option value="달기 떄문이야">땀이 많기 나기 때문이야</option>
+                                <option value="달기 떄문이야">빠르기 때문이야</option>
+                                <option value="달기 떄문이야">우정을 돋을 수 있기 때문이야</option>
+                            </optgroup>
+
+                        </select>
+
+                    </form>
+
+                    <!-- 활성화 버튼 -->
+
+                    <button type="submit">
+                        <img src="./images/meta.png" alt="페이스북 버튼">
+                    </button>
+
+                    <!-- 활성화 버튼 -->
+
+                    <button type="submit" disabled>
+                        <img src="./images/meta.png" alt="페이스북 버튼">
+                    </button>
+
+                    <!-- 읽기전용 -->
+
+                    <input type="password" readonly>
+                    <textarea readonly></textarea>
+
+                    <!-- 글자수 제한 -->
+
+                    <input type="url" maxlength="3">
+                    <textarea maxlength="3"></textarea>
+
+                    <!-- check box 만들기 -->
+
+                    <fieldset>
+                        <legend>남극탐험대</legend>
+                        <input type="checkbox" id="코펭" name="코펭" value="코펭">
+                        <lable for="코펭">코펭</lable><br>
+                        <input type="checkbox" id="마딩" name="마딩" value="마딩">
+                        <lable for="마딩">마딩</lable><br>
+                        <input type="checkbox" id="리미" name="리미" value="리미">
+                        <lable for="리미">리미</lable><br>
+                    </fieldset>
+
+                    <!-- 힌트 유도 -->
+                    
+                    <input type="tel" placeholder="올바른 이메일 형식을 입력해주세요.">
+
+    </body>
+</html>
